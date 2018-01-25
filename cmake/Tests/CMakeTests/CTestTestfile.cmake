@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: /root/Downloads/cmake-3.10.2/Tests/CMakeTests
+# Build directory: /root/Downloads/cmake-3.10.2/Tests/CMakeTests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(CMake.List "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/ListTest.cmake")
+add_test(CMake.VariableWatch "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/VariableWatchTest.cmake")
+add_test(CMake.Include "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/IncludeTest.cmake")
+add_test(CMake.FindBase "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/FindBaseTest.cmake")
+add_test(CMake.Toolchain "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/ToolchainTest.cmake")
+add_test(CMake.GetFilenameComponentRealpath "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/GetFilenameComponentRealpathTest.cmake")
+add_test(CMake.Version "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/VersionTest.cmake")
+add_test(CMake.Message "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/MessageTest.cmake")
+add_test(CMake.File "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/FileTest.cmake")
+add_test(CMake.ImplicitLinkInfo "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/ImplicitLinkInfoTest.cmake")
+add_test(CMake.ModuleNotices "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/ModuleNoticesTest.cmake")
+add_test(CMake.GetProperty "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/GetPropertyTest.cmake")
+add_test(CMake.If "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/IfTest.cmake")
+add_test(CMake.String "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/StringTest.cmake")
+add_test(CMake.Math "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/MathTest.cmake")
+add_test(CMake.CMakeMinimumRequired "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/CMakeMinimumRequiredTest.cmake")
+add_test(CMake.CompilerIdVendor "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/CompilerIdVendorTest.cmake")
+add_test(CMake.ProcessorCount "/root/Downloads/cmake-3.10.2/bin/cmake" "-DKWSYS_TEST_EXE=/root/Downloads/cmake-3.10.2/Source/kwsys/cmsysTestsCxx" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/ProcessorCountTest.cmake")
+add_test(CMake.PushCheckState "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/PushCheckStateTest.cmake")
+add_test(CMake.While "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/WhileTest.cmake")
+add_test(CMake.CMakeHostSystemInformation "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/CMakeHostSystemInformationTest.cmake")
+add_test(CMake.FileDownload "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/FileDownloadTest.cmake")
+set_tests_properties(CMake.FileDownload PROPERTIES  PASS_REGULAR_EXPRESSION "file already exists with expected MD5 sum")
+add_test(CMake.FileDownloadBadHash "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/FileDownloadBadHashTest.cmake")
+set_tests_properties(CMake.FileDownloadBadHash PROPERTIES  WILL_FAIL "TRUE")
+add_test(CMake.FileUpload "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/FileUploadTest.cmake")
+add_test(CMake.ELF "/root/Downloads/cmake-3.10.2/bin/cmake" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/ELFTest.cmake")
+add_test(CMake.EndStuff "/root/Downloads/cmake-3.10.2/bin/cmake" "-Ddir:STRING=/root/Downloads/cmake-3.10.2/Tests/CMakeTests/EndStuffTest" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/EndStuffTest.cmake")
+add_test(CMake.GetPrerequisites "/root/Downloads/cmake-3.10.2/bin/cmake" "-DConfiguration:STRING=" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/GetPrerequisitesTest.cmake")
+add_test(CMake.PolicyCheck "/root/Downloads/cmake-3.10.2/bin/cmake" "-DCMake_BINARY_DIR:PATH=/root/Downloads/cmake-3.10.2" "-DCMake_SOURCE_DIR:PATH=/root/Downloads/cmake-3.10.2" "-DGIT_EXECUTABLE:STRING=/usr/bin/git" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/PolicyCheckTest.cmake")
+add_test(CMake.CheckSourceTree "/root/Downloads/cmake-3.10.2/bin/cmake" "-DCMake_BINARY_DIR:PATH=/root/Downloads/cmake-3.10.2" "-DCMake_SOURCE_DIR:PATH=/root/Downloads/cmake-3.10.2" "-DGIT_EXECUTABLE:STRING=/usr/bin/git" "-DHOME:STRING=/root" "-P" "/root/Downloads/cmake-3.10.2/Tests/CMakeTests/CheckSourceTreeTest.cmake")

@@ -2,7 +2,7 @@
 modules for dirham chain network.
 
 
-#cmake - 3.11[New Updates]
+# cmake - 3.11[New Updates]
 
 Brad King (2):
       KWIML: Backport RISC-V update to CMake 3.10
@@ -19,7 +19,7 @@ Sebastian Holtermann (2):
       Autogen: Fix for problematic nested list separator
       Autogen: Ignore not existing source files in cmMakefile
 
-#openssl - 1.1.1[New]
+# openssl - 1.1.1[New]
 
 DESCRIPTION
 -----------

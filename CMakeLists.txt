@@ -1,7 +1,6 @@
 set(UPNPC_BUILD_STATIC ON CACHE BOOL "Build static library")
 set(UPNPC_BUILD_SHARED OFF CACHE BOOL "Build shared library")
 
-add_subdirectory(cmake)
 add_subdirectory(miniupnpc)
 add_subdirectory(gtest)
 

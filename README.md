@@ -1,4 +1,4 @@
-#compile
+# compile
 cd modules/cmake && ./bootstrap && make && make install
 
 # modules

@@ -1,3 +1,6 @@
+#compile
+cd modules/cmake && ./bootstrap && make && make install
+
 # modules
 modules for dirham chain network.
 
